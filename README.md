@@ -15,7 +15,8 @@ This repository contains the terraform code to create a Kubernetes cluster on AW
     - [Prerequisites](#prerequisites)
     - [Architecture](#architecture)
     - [Dependencies](#dependencies)
-    - [Installing](#installing)
+    - [Single Command Provisioning](#single-command-provisioning)
+    - [Provisioning](#provisioning)
     - [Uninstalling](#uninstalling)
 
 ## Getting Started
@@ -44,7 +45,13 @@ The deployment sequence diagram can be found [here](./docs/Architecture.md).
 
 The dependencies can be found [here](./docs/Dependencies.md). It has been generated using terraform-docs
 
-### Installing
+### Single Command Provisioning
+
+```bash
+make all
+```
+
+### Provisioning
 
 ```bash
 terraform init
