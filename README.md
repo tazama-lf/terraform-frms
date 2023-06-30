@@ -24,7 +24,7 @@ This repository contains the terraform code to create a Kubernetes cluster on AW
 
 - [Terraform](https://www.terraform.io/downloads.html)
 - [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)
-  - [AWS IAM Account with AdministratorAccess](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html)
+  - [AWS IAM Account with Permissions](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html)
 - [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/) (optional - for testing)
 
 ### Architecture
