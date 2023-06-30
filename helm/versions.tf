@@ -5,10 +5,6 @@ terraform {
       version = ">=2.9.0"
     }
 
-    flux = {
-      source = "fluxcd/flux"
-    }
-
     kubernetes = {
       source  = "hashicorp/kubernetes"
       version = "2.3.2"

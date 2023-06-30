@@ -24,12 +24,3 @@ data "kubernetes_service" "nginx" {
     name = "nginx"
   }
 }
-
-# Retrieve the Kubernetes service information for the flux2 service
-data "kubernetes_service" "flux2" {
-  depends_on = [helm_release.flux2]
-
-  metadata {
-    name = "flux2"
-  }
-}

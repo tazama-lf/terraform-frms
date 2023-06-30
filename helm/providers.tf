@@ -28,6 +28,3 @@ provider "kubernetes" {
     command     = "aws"
   }
 }
-
-# Flux provider block for Flux v2 bootstrapper configuration
-provider "flux" {}
