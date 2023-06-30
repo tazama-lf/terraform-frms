@@ -4,7 +4,7 @@
 
 ## Overview
 
-This repository contains the terraform code to create a Kubernetes cluster on AWS. The cluster is created using EKS and the nodes are created using EC2. The cluster is created in a private subnet and the nodes are created in a public subnet. The nodes are created using a nodegroup. The nodegroup is created using a launch template. The launch template is created using a launch template data source. The clust
+This repository contains the terraform code to create a Kubernetes cluster on AWS. The cluster is created using EKS and the nodes are created using EC2. The cluster is created in a public subnet and the nodes are created in a private subnet.
 
 ## Table of Contents
 
