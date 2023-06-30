@@ -1,4 +1,4 @@
-# FRMS Platform Repo
+# FRMS Terraform
 
 [![tfsec](https://github.com/frmscoe/terraform-frms/actions/workflows/tfsec.yml/badge.svg)](https://github.com/frmscoe/terraform-frms/actions/workflows/tfsec.yml)
 
@@ -8,7 +8,7 @@ This repository contains the terraform code to create a Kubernetes cluster on AW
 
 ## Table of Contents
 
-- [FRMS Platform Repo](#frms-platform-repo)
+- [FRMS Terraform](#frms-terraform)
   - [Overview](#overview)
   - [Table of Contents](#table-of-contents)
   - [Getting Started](#getting-started)
