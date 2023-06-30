@@ -1,6 +1,5 @@
 # Create the VPC
 module "vpc" {
-  count  = var.create_vpc ? 1 : 0
   source = "./modules/vpc"
 
   # Set the VPC name
@@ -12,7 +11,6 @@ module "vpc" {
 
 # Create the EKS cluster
 module "eks" {
-  count  = var.create_eks ? 1 : 0
   source = "./modules/eks"
 
   cluster_name = local.cluster_name
@@ -25,7 +23,6 @@ module "eks" {
 
 # Create the ECR repository
 module "ecr" {
-  count  = var.create_ecr ? 1 : 0
   source = "./modules/ecr"
 
   # Set the project name
