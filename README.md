@@ -1,3 +1,5 @@
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+
 # FRMS Terraform
 
 [![tfsec](https://github.com/frmscoe/terraform-frms/actions/workflows/tfsec.yml/badge.svg)](https://github.com/frmscoe/terraform-frms/actions/workflows/tfsec.yml)
